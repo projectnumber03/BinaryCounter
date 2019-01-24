@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="115.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interface.Controller">
+   <children>
+      <Button fx:id="startBtn" layoutX="40.0" layoutY="51.0" mnemonicParsing="false" onAction="#startClick" prefHeight="25.0" prefWidth="66.0" text="Start" />
+      <Button fx:id="stopBtn" layoutX="264.0" layoutY="51.0" mnemonicParsing="false" onAction="#stopClick" prefHeight="25.0" prefWidth="66.0" text="Stop" />
+      <Label fx:id="timerLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="133.0" layoutY="23.0" prefHeight="17.0" prefWidth="112.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
